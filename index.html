@@ -5,8 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pallav Timalsina's portfolio website featuring projects, skills, and contact details.">
-  <title>Pallav Timaslina - Portfolio</title>
+  <title>Pallav Timalsina | Frontend Developer & UI Designer</title>
+  <meta name="description" content="Pallav Timalsina is a frontend developer and UI designer specializing in React, JavaScript, TypeScript, responsive web design, and modern web applications.">
+  <meta name="keywords" content="Pallav Timalsina, Frontend Developer, UI Designer, React, JavaScript, TypeScript, Tailwind, Web Developer">
+  <link rel="canonical" href="https://pallavtimalsina.com.np/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pallav Timalsina | Frontend Developer & UI Designer">
+  <meta property="og:description" content="Frontend developer and UI designer building modern, responsive web experiences.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pallavtimalsina.com.np/">
+  <meta property="og:image" content="./assets/images/hero-banner.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- 
     - favicon
@@ -122,7 +131,7 @@
               I build clean, modern web experiences with a strong focus on usability, visual balance, and practical problem solving.
             </p>
 
-            <div class="btn-group">
+            <div class="btn-group"> 
               <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
 
               <a href="#about" class="btn">About Me</a>
@@ -190,15 +199,14 @@
             <h2 class="h2 section-title">I design and build useful digital products</h2>
 
             <p class="section-text">
-              I am an engineering student who enjoys turning ideas into interfaces and security workflows that feel polished, practical, and visually memorable.
+              I'm a Computer Engineering student and frontend developer who enjoys building useful, user-focused interfaces. I blend practical engineering with visual design to create responsive web apps that perform well and feel polished.
             </p>
 
             <ul class="about-points">
-              <li>Thoughtful UI with a strong visual hierarchy</li>
-              <li>Cybersecurity internship experience at Vortex Tech</li>
-              <li>Comfortable with Docker, Linux tools, and security workflows</li>
-              <li>Responsive layouts that work on mobile and desktop</li>
-              <li>Practical backend and frontend problem solving</li>
+              <li>Frontend development: responsive interfaces with a focus on accessibility and performance</li>
+              <li>UI design: visual hierarchy, interaction design, and component-driven layouts</li>
+              <li>Full-stack experience: practical backend work and deployment (Python, basic APIs)</li>
+              <li>Supporting experience in cybersecurity, Linux, and Docker</li>
             </ul>
 
             <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
@@ -227,44 +235,32 @@
             I completed a cybersecurity internship at Vortex Tech, where I worked with Linux tools, Docker, and security-focused workflows.
           </p>
 
-          <div class="experience-grid">
-            <article class="experience-card featured">
-              <p class="experience-label">Internship</p>
-              <h3 class="h3">Cybersecurity Intern at Vortex Tech</h3>
-              <p>
-                Hands-on exposure to system hardening, security tooling, Linux command-line workflows, and container basics.
-              </p>
-            </article>
+            <div class="hero-content">
 
-            <article class="experience-card">
-              <p class="experience-label">Tools</p>
-              <h3 class="h3">Docker and Linux</h3>
-              <p>
-                Comfortable using Docker for containerization and Linux for everyday development and security tasks.
-              </p>
-            </article>
+            <p class="hero-kicker">Frontend Developer & UI Designer</p>
 
-            <article class="experience-card">
-              <p class="experience-label">Focus</p>
-              <h3 class="h3">Security Mindset</h3>
-              <p>
-                Interested in secure systems, practical threat awareness, and building safer software habits.
-              </p>
-            </article>
+            <h1 class="hero-title">
+              <span>Hello, I'm</span>
+
+              <strong>Pallav Timalsina</strong>
+            </h1>
+
+            <p class="hero-text">
+              I design and build modern, responsive web experiences using React, TypeScript, JavaScript, and Tailwind CSS. Focused on clean UI, responsive layouts, and practical web applications.
+            </p>
+
+            <div class="btn-group">
+              <a href="#portfolio" class="btn btn-primary blue">View My Work</a>
+              <a href="./assets/resume.pdf" class="btn" download>Download Resume</a>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://github.com/pallawit123" aria-label="GitHub" class="social-link">GitHub</a>
+              <a href="#" aria-label="LinkedIn" class="social-link">LinkedIn</a>
+              <a href="mailto:pallawit948@gmail.com" aria-label="Email" class="social-link">Email</a>
+            </div>
+
           </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #PORTFOLIO
-      -->
-
-      <section class="section portfolio" id="portfolio">
         <div class="container">
 
           <p class="section-subtitle">Selected Work</p>
@@ -281,12 +277,18 @@
               <a href="https://github.com/pallawit123/Project-Tourism" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
                 <div class="card-content">
                   <p class="card-subtitle">GitHub</p>
-                  <h3 class="h3 card-title">Project Tourism</h3>
-                  <span class="btn-link">
-                    <span>View Project</span>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
-                  <p class="card-description">A web application to explore and promote tourism destinations.</p>
+                  <h3 class="h3 card-title">Bhaktapur Tourism Platform</h3>
+                  <p class="card-description">A real-world tourism platform for exploring destinations, bookings, and local information.</p>
+                  <p class="tech-list"><strong>Tech:</strong> React · Django · PostgreSQL · APIs</p>
+                  <ul class="project-features">
+                    <li>Authentication and user profiles</li>
+                    <li>Interactive maps and weather integration</li>
+                    <li>Booking/payment integration and admin dashboard</li>
+                  </ul>
+                  <div class="project-links">
+                    <a class="btn btn-primary blue" href="https://github.com/pallawit123/Project-Tourism">View on GitHub</a>
+                    <a class="btn" href="#">Live Demo</a>
+                  </div>
                 </div>
               </a>
             </li>
@@ -295,12 +297,18 @@
               <a href="https://github.com/pallawit123/sportswearstore" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
                 <div class="card-content">
                   <p class="card-subtitle">GitHub</p>
-                  <h3 class="h3 card-title">Sportswear Store</h3>
-                  <span class="btn-link">
-                    <span>View Project</span>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
-                  <p class="card-description">An e-commerce platform concept with a product-first shopping flow.</p>
+                  <h3 class="h3 card-title">Sportswear E‑commerce</h3>
+                  <p class="card-description">Frontend-focused shopping experience with product browsing, filters, and responsive design.</p>
+                  <p class="tech-list"><strong>Tech:</strong> HTML · CSS · JavaScript · Responsive design</p>
+                  <ul class="project-features">
+                    <li>Product-first UI and filtering</li>
+                    <li>Responsive layouts for mobile and desktop</li>
+                    <li>Performance-focused frontend</li>
+                  </ul>
+                  <div class="project-links">
+                    <a class="btn btn-primary blue" href="https://github.com/pallawit123/sportswearstore">View on GitHub</a>
+                    <a class="btn" href="#">Live Demo</a>
+                  </div>
                 </div>
               </a>
             </li>
@@ -309,12 +317,18 @@
               <a href="https://github.com/pallawit123" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
                 <div class="card-content">
                   <p class="card-subtitle">Concept</p>
-                  <h3 class="h3 card-title">Creative Landing Page</h3>
-                  <span class="btn-link">
-                    <span>View Concept</span>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
-                  <p class="card-description">A bold visual exploration built around gradients, motion, and typography.</p>
+                  <h3 class="h3 card-title">Personal Portfolio (This site)</h3>
+                  <p class="card-description">This portfolio demonstrates responsive frontend development, performance-minded markup, and clean UI design.</p>
+                  <p class="tech-list"><strong>Tech:</strong> HTML · CSS · JavaScript</p>
+                  <ul class="project-features">
+                    <li>Responsive layout and navigation</li>
+                    <li>Accessible semantic HTML</li>
+                    <li>Optimized images and assets</li>
+                  </ul>
+                  <div class="project-links">
+                    <a class="btn btn-primary blue" href="https://github.com/pallawit123">View on GitHub</a>
+                    <a class="btn" href="#">Live Demo</a>
+                  </div>
                 </div>
               </a>
             </li>
@@ -324,11 +338,17 @@
                 <div class="card-content">
                   <p class="card-subtitle">Concept</p>
                   <h3 class="h3 card-title">Dashboard Study</h3>
-                  <span class="btn-link">
-                    <span>View Concept</span>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
-                  <p class="card-description">A UI study that focuses on structure, contrast, and readable data cards.</p>
+                  <p class="card-description">UI study focused on structure, contrast, and readable data cards for analytic interfaces.</p>
+                  <p class="tech-list"><strong>Tech:</strong> HTML · CSS · JavaScript</p>
+                  <ul class="project-features">
+                    <li>Data-focused UI patterns</li>
+                    <li>Readable, compact information cards</li>
+                    <li>Design system approach for consistency</li>
+                  </ul>
+                  <div class="project-links">
+                    <a class="btn btn-primary blue" href="https://github.com/pallawit123">View on GitHub</a>
+                    <a class="btn" href="#">Live Demo</a>
+                  </div>
                 </div>
               </a>
             </li>
@@ -357,81 +377,39 @@
             I balance UI styling with problem solving, and I keep sharpening both frontend and backend fundamentals.
           </p>
 
-          <ul class="skills-list">
+          <div class="skills-grid">
+            <div class="skills-column">
+              <h4 class="skills-heading">Frontend</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React (projects)</li>
+                <li>TypeScript (familiar)</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
 
-            <li class="skills-item">
-              <div class="wrapper">
-                <h3 class="skills-title">CSS</h3>
+            <div class="skills-column">
+              <h4 class="skills-heading">Backend</h4>
+              <ul>
+                <li>Python</li>
+                <li>Django</li>
+                <li>Flask</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
 
-                <data class="skills-data" value="95">95%</data>
-              </div>
-
-              <div class="skills-progress-box">
-                <div class="skills-progress" style="width: 95%"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="wrapper">
-                <h3 class="skills-title">Docker</h3>
-
-                <data class="skills-data" value="75">75%</data>
-              </div>
-
-              <div class="skills-progress-box">
-                <div class="skills-progress" style="width: 75%"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="wrapper">
-                <h3 class="skills-title">Linux Tools</h3>
-
-                <data class="skills-data" value="80">80%</data>
-              </div>
-
-              <div class="skills-progress-box">
-                <div class="skills-progress" style="width: 80%"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="wrapper">
-                <h3 class="skills-title">Cybersecurity</h3>
-
-                <data class="skills-data" value="78">78%</data>
-              </div>
-
-              <div class="skills-progress-box">
-                <div class="skills-progress" style="width: 78%"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="wrapper">
-                <h3 class="skills-title">JavaScript</h3>
-
-                <data class="skills-data" value="80">80%</data>
-              </div>
-
-              <div class="skills-progress-box">
-                <div class="skills-progress" style="width: 80%"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="wrapper">
-                <h3 class="skills-title">Python</h3>
-
-                <data class="skills-data" value="70">70%</data>
-              </div>
-
-              <div class="skills-progress-box">
-                <div class="skills-progress" style="width: 70%"></div>
-              </div>
-            </li>
-
-          </ul>
+            <div class="skills-column">
+              <h4 class="skills-heading">Tools & UX</h4>
+              <ul>
+                <li>Git · GitHub</li>
+                <li>Docker · Linux</li>
+                <li>VS Code</li>
+                <li>Responsive Design · Figma</li>
+              </ul>
+            </div>
+          </div>
 
         </div>
       </section>
@@ -449,72 +427,18 @@
 
           <div class="contact-card">
 
-            <p class="card-subtitle">Don't be shy</p>
+            <p class="card-subtitle">Get in touch</p>
 
-            <h2 class="h2 section-title">Drop Me a Line</h2>
+            <h2 class="h2 section-title">Have a project or opportunity? Let's connect.</h2>
 
-            <div class="wrapper">
+            <div class="wrapper contact-simple">
+              <p class="section-text">I'm open to junior frontend and UI roles. Prefer contact via email, GitHub, or LinkedIn.</p>
 
-              <form action="" class="contact-form">
-
-                <input type="text" name="name" placeholder="Name" required class="contact-input">
-
-                <input type="email" name="email" placeholder="Email" required class="contact-input">
-
-                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
-
-                <button type="submit" class="btn-submit">Submit Message</button>
-
-              </form>
-
-              <ul class="contact-list">
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="location"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Address</h3>
-
-                    <address class="contact-item-link">
-                     Chapagaun,Lalitpur,Nepal
-                    </address>
-                  </div>
-
-                </li>
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="mail"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Email</h3>
-
-                    <a href="mailto:pallawit948@gmail.com" class="contact-item-link">pallawit948@gmail.com</a>
-                  </div>
-
-                </li>
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="call"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Phone</h3>
-
-                    <a href="tel:+9779841551671" class="contact-item-link">+977 9841551671</a>
-                  </div>
-
-                </li>
-
-              </ul>
-
+              <div class="contact-ctas">
+                <a class="btn btn-primary blue" href="mailto:pallawit948@gmail.com">Email Me</a>
+                <a class="btn" href="https://github.com/pallawit123">GitHub</a>
+                <a class="btn" href="#">LinkedIn</a>
+              </div>
             </div>
 
           </div>

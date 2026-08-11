@@ -386,6 +386,10 @@
     color: var(--white);
   }
 
+  /* Hero socials */
+  .hero-socials { display: flex; justify-content: center; gap: 12px; margin-top: 14px; }
+  .social-link { color: var(--white); background: rgba(255,255,255,0.04); padding: 8px 12px; border-radius: 8px; font-weight: 600; }
+
   .hero-kicker {
     display: inline-flex;
     align-items: center;
@@ -665,6 +669,11 @@
     font-size: 1.5rem;
   }
 
+  .tech-list { margin-top: 10px; font-size: 1.3rem; color: hsl(240,10%,85%); }
+  .project-features { margin-top: 10px; color: hsl(240,10%,85%); }
+  .project-features li { margin-bottom: 6px; }
+  .project-links { margin-top: 12px; display: flex; gap: 10px; }
+
   .portfolio-card .btn-link {
     display: flex;
     align-items: center;
@@ -703,6 +712,11 @@
     display: grid;
     gap: 18px;
   }
+
+  .skills-grid { display: grid; grid-template-columns: 1fr; gap: 20px; text-align: left; }
+  .skills-column { background: hsla(243,23%,18%,0.32); padding: 18px; border-radius: 12px; }
+  .skills-heading { color: var(--white); margin-bottom: 8px; }
+  .skills-column ul { color: var(--cadet-blue-crayola); list-style: disc; padding-left: 18px; }
 
   .skills-item {
     padding: 20px 22px;
@@ -1314,6 +1328,9 @@
     .contact-item { gap: 25px; }
 
     .contact-icon { padding: 30px; }
+
+    .contact-simple .section-text { max-width: 40ch; margin-bottom: 18px; }
+    .contact-ctas { display: flex; gap: 12px; }
 
 
 
